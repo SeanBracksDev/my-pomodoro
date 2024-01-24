@@ -18,7 +18,6 @@
 			if (running) {
 				seconds--;
 			}
-			console.log(percent_complete);
 		}, 1000);
 	});
 
@@ -31,8 +30,6 @@
 		running = false;
 	}
 </script>
-
-<!-- https://www.skeleton.dev/components/progress-radials -->
 
 <div class="h-screen flex flex-col items-center justify-center">
 	<ProgressRadial class="w-20" track="stroke-primary-500/30" value={percent_complete}
