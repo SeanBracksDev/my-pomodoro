@@ -38,8 +38,7 @@
 	<ProgressRadial class="w-20" track="stroke-primary-500/30" value={percent_complete}
 		>{date}</ProgressRadial
 	>
-	<h1>{date}</h1>
-	<div>
+	<div class="mt-4">
 		<button
 			class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 w-20"
 			on:click={startStop}
